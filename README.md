@@ -2,7 +2,7 @@
 
 	Current version: M101 rev.D
 	State: Tested
-	Difficulty: Medium
+	Build Difficulty: Medium
 
 Basic switched-mode power supply module for [FluorumLabs SonicTrain](http://fluorumlabs.com) modular sound processing system.
 
@@ -88,8 +88,8 @@ _1_ | _VT1_ | _Transistors MOSFET IRFD014 HVMDIP-4_ | _Populate only if input cu
 Qty |  Component | Notes
 --- |  --------- | -----
 1 |   Assembly M101 rev.D |
-1 |   Hardware ZZ050 Bottom | [Bottom plate](enclosure/zz050.dxf)
-1 |   Hardware ZM101 Top | [Low profile DC-DC converter and switch](enclosure/zm101.dxf), [Normal DC-DC converter and switch](enclosure/zm101-hp.dxf), [Low profile DC-DC converter and no switch](enclosure/zm101-no-switch.dxf) or [Normal DC-DC converter and no switch](enclosure/zm101-hp-no-switch.dxf)
+1 |   Hardware ZZ050 Bottom | [Bottom plate](dxf/zz050.dxf)
+1 |   Hardware ZM101 Top | [Low profile DC-DC converter and switch](dxf/zm101.dxf), [Normal DC-DC converter and switch](dxf/zm101-hp.dxf), [Low profile DC-DC converter and no switch](dxf/zm101-no-switch.dxf) or [Normal DC-DC converter and no switch](dxf/zm101-hp-no-switch.dxf)
 8 |   Hardware Screw M2x8 Hex |
 8 |   Hardware Screw M2x10 Hex |
 8 |   Hardware Standoff M2x3 |
