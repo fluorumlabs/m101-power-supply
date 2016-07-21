@@ -22,6 +22,12 @@ Basic switched-mode power supply module for [FluorumLabs SonicTrain](http://fluo
 
 ![Populated PCB]()
 
+## Schematics and PCB ##
+
+ * [Schematics (PDF)](eagle/m101-power-supply.pdf)
+ * [Schematics (Eagle 7)](eagle/m101-power-supply.sch)
+ * [PCB (Eagle 7)](eagle/m101-power-supply.brd)
+
 ## Ordering and Building Notes ##
 
 Populating the PCB should be relatively straightforward. Some notes:
@@ -88,14 +94,8 @@ Qty |  Component | Notes
 8 |   Hardware Standoff M2x9 |
 180mm |   Hardware Magnetic Tape 12x1.5mm | 2 x 9cm
 
-## Schematics and PCB ##
-
- * [Schematics (PDF)](eagle/m101-power-supply.pdf)
- * [Schematics (Eagle 7)](eagle/m101-power-supply.sch)
- * [PCB (Eagle 7)](eagle/m101-power-supply.brd)
-
 ## Legal ##
 
-Designed by Artem Godin @fluorumlabs.
+Designed by Artem Godin.
 
 Licensed under the terms of [CERN Open Hardware Licence v1.2](LICENSE)
