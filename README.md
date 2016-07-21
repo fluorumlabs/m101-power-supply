@@ -49,18 +49,18 @@ Populating the PCB should be relatively straightforward. Some notes:
 
 ## Bill of Materials (Assembly M101 rev.D) ##
 
-Qty | RefDes | Component | Notes | Kit
---- | ------ | --------- | ----- | -------------------
-1 | PCB1 | PCB M101 rev.D | | YES
-2 | C1, C3 | Capacitors Aluminium 33u/50V 8x7mm | Low profile |
-1 | C2 | Capacitors Aluminium 10u/35V 5x7mm | Low profile |
+Qty | RefDes | Component | Notes
+--- | ------ | --------- | -----
+1 | PCB1 | PCB M101 rev.D |
+2 | C1, C3 | Capacitors Aluminium 33u/50V 8x7mm | Low profile
+1 | C2 | Capacitors Aluminium 10u/35V 5x7mm | Low profile
 2 | C4, C7 | Capacitors Ceramic 100n Radial | Lead space 5mm
-2 | C5, C6 | Capacitors Aluminium Organic 39u/35V 8x7mm | Low profile |
-2 | C8, C9 | Capacitors Film 100n 2.5x7.2x6mm |
-2 | C10, C11 | Capacitors Aluminium 1u/50V 4x7mm | Low profile |
-2 | C12, C13 | Capacitors Film 22n 2.5x7.2x6mm |
+2 | C5, C6 | Capacitors Aluminium Organic 39u/35V 8x7mm | Low profile
+2 | C8, C9 | Capacitors Film 100n 2.5x7.2x6mm
+2 | C10, C11 | Capacitors Aluminium 1u/50V 4x7mm | Low profile
+2 | C12, C13 | Capacitors Film 22n 2.5x7.2x6mm
 1 | DA1 | IC Logic NE555 DIP-8 |
-1 | HL1 | LED 2x5x7mm Diffused Red/Blue (Common Cathode) | | YES
+1 | HL1 | LED 2x5x7mm Diffused Red/Blue (Common Cathode) |
 1 | L1 | Ferrite Bead Axial |
 1 | R1 | Resistors 22k 1% 0.25W |
 1 | R2 | Resistors Array 4x100k SIP-5 |
@@ -69,35 +69,35 @@ Qty | RefDes | Component | Notes | Kit
 3 | R5, R8, R9 | Resistors 1k5 1% 0.25W |
 2 | R10, R11 | Resistors 220k 1% 0.125W |
 2 | R12, R13 | Resistors 100R 1% 0.25W |
-1 | SA1 | Switches Slide MHS122K | Optional, leave out if no switch is needed | YES
-2 | U1, U2 | Hardware Screw M2x8 Hex | For Hirose FX2 connector | YES
-2 | U3, U4 | Hardware Nut M2 Self-locking | For Hirose FX2 connector | YES
-1 | U5 | Connectors Hirose FX2-20P-1.27DS | | YES
-1 | U6 | DC/DC Converter SHHN000A3CL41Z 9W C1 | ±15V dual output DC-DC converters in industry standard through-hole 1x1 footprint | YES
-1 | U7 | Optocoupler G3VM-62C1 DIP-8 | | YES
-1 | U8 | Hardware ERM1-5MM | 5mm LED standoff for HL1 | YES
+1 | SA1 | Switches Slide MHS122K | Optional, leave out if no switch is needed
+2 | U1, U2 | Hardware Screw M2x8 Hex | For Hirose FX2 connector
+2 | U3, U4 | Hardware Nut M2 Self-locking | For Hirose FX2 connector
+1 | U5 | Connectors Hirose FX2-20P-1.27DS |
+1 | U6 | DC/DC Converter SHHN000A3CL41Z 9W C1 | ±15V dual output DC-DC converters in industry standard through-hole 1x1 footprint
+1 | U7 | Optocoupler G3VM-62C1 DIP-8 |
+1 | U8 | Hardware ERM1-5MM | 5mm LED standoff for HL1
 3 | VD1, VD3, VD4 | Diodes Zener 1N4740 10V DO-41 | Standard 10V zener diode
 1 | VD2 | Diodes BAT46 DO-35 | Standard small signal diode will also work (1N4148 etc.)
 _1_ | _VT1_ | _Transistors MOSFET IRFD014 HVMDIP-4_ | _Populate only if input current is expected to be greater than 1.5A_
-2 | VT2, VT4 | Transistors MOSFET IRFD014 HVMDIP-4 | | YES
-1 | VT3 | Transistors MOSFET IRFD9024 HVMDIP-4 | | YES
-1 | XS1 | Connectors CUI PJ-051AH 2.0mm | | YES
+2 | VT2, VT4 | Transistors MOSFET IRFD014 HVMDIP-4 |
+1 | VT3 | Transistors MOSFET IRFD9024 HVMDIP-4 |
+1 | XS1 | Connectors CUI PJ-051AH 2.0mm |
 
 ## Bill of Materials (M101 Power Supply) ##
 
-Qty |  Component | Notes | Kit
---- |  --------- | ----- | -------------------
+Qty |  Component | Notes
+--- |  --------- | -----
 1 |   Assembly M101 rev.D |
-1 |   [Hardware ZZ050 Bottom](dxf/zz050.dxf) | | YES
-1 |   [Hardware ZM101 Top](dxf/zm101.dxf) | Low profile DC-DC and switch | YES
+1 |   [Hardware ZZ050 Bottom](dxf/zz050.dxf) |
+1 |   [Hardware ZM101 Top](dxf/zm101.dxf) | Low profile DC-DC and switch
 _1_ |   _[Hardware ZM101-NO-SWITCH Top](dxf/zm101-no-switch.dxf)_ | _Low profile DC-DC and no switch_
 _1_ |   _[Hardware ZM101-HP Top](dxf/zm101-hp.dxf)_ | _Normal DC-DC and switch_
 _1_ |   _[Hardware ZM101-HP-NO-SWITCH Top](dxf/zm101-hp-no-switch.dxf)_ | _Normal DC-DC and no switch_
-8 |   Hardware Screw M2x8 Hex | | YES
-8 |   Hardware Screw M2x10 Hex | | YES
-8 |   Hardware Standoff M2x3 | | YES
-8 |   Hardware Standoff M2x9 | | YES
-180mm |   Hardware Magnetic Tape 12x1.5mm | 2 x 9cm | YES
+8 |   Hardware Screw M2x8 Hex |
+8 |   Hardware Screw M2x10 Hex |
+8 |   Hardware Standoff M2x3 |
+8 |   Hardware Standoff M2x9 |
+180mm |   Hardware Magnetic Tape 12x1.5mm | 2 x 9cm
 
 ## Legal ##
 
