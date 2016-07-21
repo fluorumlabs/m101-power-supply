@@ -49,15 +49,15 @@ Populating the PCB should be relatively straightforward. Some notes:
 
 ## Bill of Materials (Assembly M101 rev.D) ##
 
-Qty | RefDes | Component | Notes | Included in DIY Kit
+Qty | RefDes | Component | Notes | Kit
 --- | ------ | --------- | ----- | -------------------
 1 | PCB1 | PCB M101 rev.D | | YES
-2 | C1, C3 | Capacitors Aluminium 33u/50V 8x7mm | Low profile | YES
-1 | C2 | Capacitors Aluminium 10u/35V 5x7mm | Low profile | YES
+2 | C1, C3 | Capacitors Aluminium 33u/50V 8x7mm | Low profile |
+1 | C2 | Capacitors Aluminium 10u/35V 5x7mm | Low profile |
 2 | C4, C7 | Capacitors Ceramic 100n Radial | Lead space 5mm
-2 | C5, C6 | Capacitors Aluminium Organic 39u/35V 8x7mm | Low profile | YES
+2 | C5, C6 | Capacitors Aluminium Organic 39u/35V 8x7mm | Low profile |
 2 | C8, C9 | Capacitors Film 100n 2.5x7.2x6mm |
-2 | C10, C11 | Capacitors Aluminium 1u/50V 4x7mm | Low profile | YES
+2 | C10, C11 | Capacitors Aluminium 1u/50V 4x7mm | Low profile |
 2 | C12, C13 | Capacitors Film 22n 2.5x7.2x6mm |
 1 | DA1 | IC Logic NE555 DIP-8 |
 1 | HL1 | LED 2x5x7mm Diffused Red/Blue (Common Cathode) | | YES
@@ -85,7 +85,7 @@ _1_ | _VT1_ | _Transistors MOSFET IRFD014 HVMDIP-4_ | _Populate only if input cu
 
 ## Bill of Materials (M101 Power Supply) ##
 
-Qty |  Component | Notes | Included in DIY Kit
+Qty |  Component | Notes | Kit
 --- |  --------- | ----- | -------------------
 1 |   Assembly M101 rev.D |
 1 |   [Hardware ZZ050 Bottom](dxf/zz050.dxf) | | YES
