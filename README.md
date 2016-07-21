@@ -40,9 +40,6 @@ Populating the PCB should be relatively straightforward. Some notes:
  * If you want to omit switch and selected DC-DC converter has a negative remote ON/OFF function, connect two solder pads beneath the switch on the bottom side of the board.
  * If selected DC-DC converter doesn't have remote ON/OFF feature, leave the switch out.
 
-![PCB Top](images/top.png)
-![PCB Bottom](images/bottom.png)
-
 ## Bill of Materials (Assembly M101 rev.D) ##
 
 Qty | RefDes | Component | Notes
@@ -65,15 +62,15 @@ Qty | RefDes | Component | Notes
 3 | R5, R8, R9 | Resistors 1k5 1% 0.25W |
 2 | R10, R11 | Resistors 220k 1% 0.125W |
 2 | R12, R13 | Resistors 100R 1% 0.25W |
-1 | SA1 | Switches Slide MHS122K | Optional
-2 | U1, U2 | Hardware Screw M2x8 Hex |
-2 | U3, U4 | Hardware Nut M2 Self-locking |
+1 | SA1 | Switches Slide MHS122K | Leave out if no switch is needed
+2 | U1, U2 | Hardware Screw M2x8 Hex | Mount connector U5 on PCB
+2 | U3, U4 | Hardware Nut M2 Self-locking | Mount connector U5 on PCB
 1 | U5 | Connectors Hirose FX2-20P-1.27DS |
 1 | U6 | DC/DC Converter SHHN000A3CL41Z 9W C1 | Any ±15V dual output DC-DC converters in industry standard through-hole 1x1 footprint
 1 | U7 | Optocoupler G3VM-62C1 DIP-8 |
 1 | U8 | Hardware ERM1-5MM | 5mm LED standoff for HL1
-3 | VD1, VD3, VD4 | Diodes Zener 1N4740 10V DO-41 |
-1 | VD2 | Diodes BAT46 DO-35 |
+3 | VD1, VD3, VD4 | Diodes Zener 1N4740 10V DO-41 | Any 10V zener diode will work
+1 | VD2 | Diodes BAT46 DO-35 | Any small signal diode will work (1N4148 etc.)
 2 | VT1, VT2, VT4 | Transistors MOSFET IRFD014 HVMDIP-4 |
 1 | VT3 | Transistors MOSFET IRFD9024 HVMDIP-4 |
 1 | XS1 | Connectors CUI PJ-051AH 2.0mm |
@@ -91,6 +88,14 @@ Qty |  Component | Notes
 8 |   Hardware Standoff M2x9 |
 180 |   Hardware Magnetic Tape 12x1.5mm | 2 x 9cm
 
- ## Schematics ##
+## Schematics and PCB ##
 
- ![Schematics](images/schematics.png)
+ * [Schematics (PDF)](eagle/m101-power-supply.pdf)
+ * [Schematics (Eagle 7)](eagle/m101-power-supply.sch)
+ * [PCB (Eagle 7)](eagle/m101-power-supply.brd)
+
+## Legal ##
+
+Designed by Artem Godin @fluorumlabs.
+
+Licensed under the terms of [CERN Open Hardware Licence v1.2](LICENSE)

@@ -3955,7 +3955,6 @@ you don't need switch.</text>
 <instance part="U5" gate="G$1" x="111.76" y="2.54"/>
 <instance part="U7" gate=".1A" x="144.78" y="-40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="142.24" y="-48.26" size="1.778" layer="94" rot="MR0" align="bottom-right"/>
-<attribute name="VALUE" x="142.24" y="-35.56" size="1.778" layer="96" rot="R270" align="bottom-right"/>
 </instance>
 <instance part="U7" gate=".2A" x="132.08" y="-40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="129.54" y="-48.26" size="1.778" layer="94" rot="MR0" align="bottom-right"/>
