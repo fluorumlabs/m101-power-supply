@@ -4,7 +4,7 @@
 	State: Tested
 	Build Difficulty: Medium
 
-Basic switched-mode power supply module for [FluorumLabs SonicTrain](http://fluorumlabs.com) modular sound processing system.
+Basic switched-mode power supply module for [FluorumLabs SonicTrain](https://github.com/fluorumlabs/sonictrain) modular sound processing system.
 
 ![Assembled Module]()
 
