@@ -42,7 +42,9 @@ Populating the PCB should be relatively straightforward. Some notes:
  * The switch orientation depends on remote ON/OFF function of selected DC-DC converter:
    * Positive remote ON/OFF: mount switch in POS position.
    * Negative remove ON/OFF: mount switch in NEG position.
+
  * If you want to omit switch and selected DC-DC converter has a negative remote ON/OFF function, connect two solder pads beneath the switch on the bottom side of the board.
+
  * If selected DC-DC converter doesn't have remote ON/OFF feature, leave the switch out.
 
 ## Bill of Materials (Assembly M101 rev.D) ##
